@@ -107,8 +107,8 @@ int main() {
 		0.0f,0.0f,1.0f,
 
 		1.0f,0.0f,0.0f,
-		0.0f,0.0f,0.0f,
-		0.0f,0.0f,0.0f,
+		0.0f,1.0f,0.0f,
+		0.0f,0.0f,1.0f,
 
 	};
 
@@ -151,7 +151,6 @@ int main() {
 		glUseProgram(shader_program);
 		//triangles,initial vertex, how many vertices
 		glDrawArrays(GL_TRIANGLES, 0, 6);
-		
 		glfwSwapBuffers(window);
 	}
 	return 0;
